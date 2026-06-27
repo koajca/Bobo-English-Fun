@@ -231,9 +231,18 @@ Done khi:
 
 - [x] Chạy `npm run build`.
 - [x] Chạy preview local nếu có.
+- [x] Thêm cấu hình deploy cho Vercel và Netlify.
 - [ ] Deploy preview lên Vercel, Netlify, Cloudflare Pages hoặc GitHub Pages.
 - [ ] Test link preview trên điện thoại thật.
-- [ ] Ghi nhận issue từ preview.
+- [x] Ghi nhận issue từ preview.
+
+Deploy note:
+
+- Vercel CLI hiện báo token không hợp lệ: `The specified token is not valid`.
+- Netlify CLI hiện chưa đăng nhập: `Not logged in`.
+- Cần đăng nhập lại Vercel hoặc Netlify trước khi deploy public.
+- Build command: `npm run build`.
+- Output directory: `dist`.
 
 Done khi:
 
